@@ -26,7 +26,7 @@ h4{
 body {
 	background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsk0RDMATG9t-5F4uflrPvoYruv4AkyOtZPA&usqp=CAU");
 	background-color: #ffffff;
-	max-width: 1000px;
+	max-width: 2000px;
 }
 
 img {
@@ -98,10 +98,12 @@ figcaption {
 	/*position: relative;
 	top: 50px;
 	left: -800px;*/
-	flex: 0 1 100%;
+	flex: 0 1 80%;
 	margin-top: 25px;
 	margin-left: 0px;
 	margin-right: -50px;
+	float: center;
+	padding-right: 50px;
 }
 
 .forageflex {
@@ -109,6 +111,7 @@ figcaption {
 	flex-direction: row;
 	position: relative;
 	top: 50px;
+	float: center;
 }
 	
 .potato {
@@ -121,45 +124,7 @@ figcaption {
 	top: 200px;
 }
 
-/*Toolbar*/
-/*link inside toolbar*/
-/*.toolbar {
-	float: center;
-	font-family: Helvetica;
-	border-top: 1px solid #000000;
-	border-bottom: 1px solid #000000;
-	background-color: #ffbaba;
-	text-align: center;
-	display: flex;
-}
 
-.toolbar ul {
-	margin: auto;
-	padding: 10px;
-	list-style-type: none;
-}
-.toolbar li{
-	display:inline;
-}
-/*tab borders
-.toolbar li a {
-	float: center;
-	border-left: 2px solid #9999ff;
-	border-right: 2px solid #9999ff;
-	padding: 0px 10px;
-	color: #000000;
-	text-decoration:none;
-}*/
-
-/*color of tabs when hovered over with mouse
-toolbar li a:hover {
-	background-color: #00DBF0;
-}
-/*end of toolbar CSS
-
-.home:hover {
-	background: url("C:\Users\Rachael\Desktop\WebProgramming\Molerat Page Project\Images\toolbar\home_hover.png") no-repeat;
-}
 
 /*Toolbar attempt 2  (based on code retrieved from w3schools
 https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_navbar_icon
@@ -253,11 +218,15 @@ https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_navbar_icon
 	display: inline-block;
 	position: relative;
 	overflow: hidden;
+	top: -0px;
 }
 
 .imgcaption {
 	font-size: 14px;
 	font-family: Rubik;
+	position: relative;
+	top: -10px;
+	
 }
 
 .captionright{
@@ -274,12 +243,12 @@ https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_navbar_icon
 }
 
 .foragerats {
+
 	position: relative;
 	flex: 0 1 20%;
 	float: center;
 	display: inline;
 	left: 125px;
-
 }
 
 .foragemap {
@@ -288,6 +257,10 @@ https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_navbar_icon
 	display: inline;
 	position: relative;
 	left: 200px;
+}
+
+.foragecenter {
+	float: center;
 }
 
 .textbox {
@@ -318,5 +291,4 @@ https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_navbar_icon
 .greybackground{
 	background: rgba(200, 200, 200, 0.3) /* Green background with 30% opacity */
 }
-
 
