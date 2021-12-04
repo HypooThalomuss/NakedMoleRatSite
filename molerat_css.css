@@ -273,12 +273,14 @@ https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_navbar_icon
    flex: 0 1 20%;
    margin-left: 10px;
    margin-right: 10px;
+   float: right;
 }
 
 .imgfarright {
 	flex: 0 1 20%;
 	margin-left: 10px;
    margin-right: 10px;
+	float: right;
 }
 .blackborder{
 	box-shadow: 5px 5px 10px grey;
