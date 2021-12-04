@@ -27,6 +27,7 @@ body {
 	background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsk0RDMATG9t-5F4uflrPvoYruv4AkyOtZPA&usqp=CAU");
 	background-color: #ffffff;
 	max-width: 2000px;
+	float: center;
 }
 
 img {
