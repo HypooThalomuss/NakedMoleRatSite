@@ -1,0 +1,96 @@
+<!--Foraging & dispersal) -->
+
+<!DOCTYPE HTML>
+<html lang=" = "en">
+<head>
+	<title>Foraging and Dispersal</title>
+	
+	<!--Favicon-->
+	<link rel="shortcut icon" type="image/jpg" href="https://upload.wikimedia.org/wikipedia/en/thumb/9/9c/Rufus_Kim_Possible.png/250px-Rufus_Kim_Possible.png"/>
+	
+	<!--Calls CSS-->
+	<link rel="stylesheet" type = "text/css" charset="utf-8" href=molerat_css.css>
+	
+	<!--Calls icons -->
+	<script src="https://kit.fontawesome.com/dece17cfae.js" crossorigin="anonymous"></script>
+	
+	<!--Google Font-->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rubik">
+	
+</head>
+
+<body>
+	<div><h1>Foraging & Dispersal</h1></div>
+	
+	<!--toolbar div-->
+	<div class = "tool2">
+		<ul>
+			<!--Home-->
+			<a href="file:///C:/Users/Rachael/Desktop/WebProgramming/Molerat%20Page%20Project/molerat_home.html"><i class="fa fa-home"></i>Home</a>
+			<!--Foraging-->
+			<a class = "active" href="C:\Users\Rachael\Desktop\WebProgramming\Molerat Page Project\molerat_forage.html"><i class="fas fa-carrot"></i>Foraging and Dispersal</a>
+			<!--Social Structure-->
+			<a href="C:\Users\Rachael\Desktop\WebProgramming\Molerat Page Project\molerat_socialStructure.html"><i class="far fa-handshake"></i>Social Structure</a>
+			<!--Work Cited-->
+			<a href="C:\Users\Rachael\Desktop\WebProgramming\Molerat Page Project\molerat_workcited.html"><i class="fas fa-globe"></i>Work Cited</a>
+			<!--Report-->
+		<a href="C:\Users\Rachael\Desktop\WebProgramming\Molerat Page Project\molerat_report.html"><i class="fa-regular fa-clipboard"></i>Report</a>
+		</ul>
+	</div>
+	<!--end of toolbar div-->
+	
+	<!--Tubers-->
+	<div class="forageflex">
+	<div class="imgfarright">
+	<div class="blackborder">
+		<img src = "https://upload.wikimedia.org/wikipedia/commons/f/f3/Ullucus_tuberosus_%28South_Peru%29.jpg" alt = "tubers" width "300" height = "300">
+		</div>
+		<p>Figure 2</p>
+	</div>
+	<div class="imgright">
+		<div class="blackborder">
+		<img src = "https://www.researchgate.net/profile/Karolina-Pajerowska-Mukhtar/publication/50385520/figure/fig1/AS:669476357947393@1536627010023/Diagram-of-a-potato-plant-For-simplicity-one-main-stem-is-shown-Productive-plants-may.ppm" alt = "potato" width = "350" height = "350">
+		</div>
+		<p>Figure 3</p>
+	</div>
+	</div>
+		<!--
+		<div class="foragefix">
+			<div class="regtext"align="left">
+			<p>The primary food source of naked mole rats are tubers, which are plants with storage organs/buds underground. A famous example of a tuber is the potato. The bulbs and roots are underground while the leaves, stems, and flowers are above ground.The fact that the nutrition-filled part of the tuber is underground as well as the naked mole rats' immunity to the tubers' natural toxin makes it a very good and vital food source. Especially considering the arid climate the naked mole rats reside in.</p>
+			<p style="clear: both;">A popular theory of why the naked mole rat adopt a colony social structure is because it allows them to be able to get more food which is already sparse in the arid African climate. Seen in the image below are the NDVI index of Africa (left) and the habitats of three species of mole rat including the naked mole rat (right). (For more inforcation on eusocial vs solitary and about social structure, see "Social Structure")</p>	 
+			</div>
+		</div>-->
+	</div>
+	<!--end of Tubers-->
+	
+	
+	<div class="foragerats">
+		<img src="https://upload.wikimedia.org/wikipedia/commons/9/98/Silvery_mole-rat.png" width="250" height="150">
+		<p class="caption">Silvery Mole Rat (Solitairy)</p>
+		<img src="https://www.science.org/do/10.1126/science.aat1320/abs/rat_16x9.jpg" width="250" height = "150"></br>
+		<p class="caption">Naked Mole Rat (Eusocial)</p>
+		<img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Damaraland_mole-rat.jpg" width="250" height="150">
+		<p class="caption">Damarland Mole Rat (Eusocial)</p>
+	</div>
+	
+	<div class="foragemap">
+	<img src="C:\Users\Rachael\Desktop\WebProgramming\Molerat Page Project\ndvi_molerat.png" height = "600" width = "1000">
+	</div>
+		<div class="foragemap">
+	<div class="regtext">
+	<p class="textbox">Like the naked mole rat, the damarland mole rat also uses a eusocial social structure involving colonies. The silvery mole rat on the other hand, are solitairy so they gather resources for themselves as opposed to a colony. The naked and damarland mole rat habitats are both area of Africa with a low NDVI index, so a lower concentration of vegetatation such as tubers. The silvery mole rat habitat is in an area with a higher NDVI index, so more vegetation and more tubers. Sp a popular theory is that mammals like the naked and damarland mole rats who adopt a eusocial structure do so in order to improve their odds of finding enough food to survive, a task that would be much harder to do if they were solitary due to the lower amounts of vegetaton in ther habitat.</p>
+	</div>
+	</div>
+</body>
+
+</html>
+
+<!--Sections (based off of paper, rename them accordingly)
+~ introduction
+~foraging & dispersal
+~Predator defense
+~ intraspecies competition & communication
+~ mating system & sexual selection
+~ parental investment & social behaviour
+~ Work cited -->

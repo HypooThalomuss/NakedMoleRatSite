@@ -1,0 +1,37 @@
+/* CSS for Mole Rat Project */
+
+/*Toolbar*/
+
+
+/*link inside toolbar*/
+.toolbar{
+	float:center;
+	font-family: Elephant;
+	border: 1px solid #000000;
+	background-color: #ff66ff;
+
+}
+.toolbar ul {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+.toolbar li{
+	display:inline;
+}
+/*tab borders*/
+.toolbar li a {
+	float: center;
+	border-left: 2px solid #9999ff;
+	border-right: 2px solid #9999ff;
+	padding: 0px 10px;
+	color: #000000;
+	text-decoration:none;
+}
+
+/*color of tabs when hovered over with mouse*/
+.toolbar li a:hover {
+	background-color: #00DBF0;
+}
+}
+/*end of toolbar CSS*/

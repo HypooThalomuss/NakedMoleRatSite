@@ -1,0 +1,41 @@
+<!--Foraging & dispersal) -->
+
+<!DOCTYPE HTML>
+<html lang=" = "en">
+<head>
+	<title>Web Design Final Project</title>
+	
+	<!--Favicon-->
+	<link rel="shortcut icon" type="image/jpg" href="https://upload.wikimedia.org/wikipedia/en/thumb/9/9c/Rufus_Kim_Possible.png/250px-Rufus_Kim_Possible.png"/>
+	
+<!--Calls CSS-->
+	<link rel="stylesheet" type = "text/css" charset="utf-8" href=molerat_css.css>
+</head>
+
+<body>
+	<h1>Foraging & Dispersal</h1>
+	
+	<!--toolbar div-->
+	<div class = "toolbar">
+		<ul>
+			<li><a href="file:///C:/Users/Rachael/Desktop/WebProgramming/Molerat%20Page%20Project/molerat_home.html"><img src = "C:\Users\Rachael\Desktop\WebProgramming\Molerat Page Project\Images\toolbar\home.png" alt = "home" height = "40" width = "125"></a></li>
+			<li><a href="C:\Users\Rachael\Desktop\WebProgramming\Molerat Page Project\molerat_forage.html"><img src = "C:\Users\Rachael\Desktop\WebProgramming\Molerat Page Project\Images\toolbar\habitat_food.png" alt = "habitat and food sources" height = "40" width = "310"></a></li>
+			<li><a href="C:\Users\Rachael\Desktop\WebProgramming\Molerat Page Project\molerat_workcited.html">Work Cited</a></li>
+		</ul>
+	</div>
+	<!--end of toolbar div-->
+	<center><img src = "https://cdn.the-scientist.com/assets/articleNo/40923/iImg/24270/6ba7856f-8658-421a-bb74-9051c8d9a51c-diggingmm.jpg" alt = "naked mole rat burrow" width "500" height = "500"></center>
+	<p>testing for page2</p>
+
+</body>
+
+</html>
+
+<!--Sections (based off of paper, rename them accordingly)
+~ introduction
+~foraging & dispersal
+~Predator defense
+~ intraspecies competition & communication
+~ mating system & sexual selection
+~ parental investment & social behaviour
+~ Work cited -->

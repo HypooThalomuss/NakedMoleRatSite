@@ -1,0 +1,60 @@
+<!--Introduction (Home) -->
+
+<!DOCTYPE HTML>
+<html lang=" = "en">
+<head>
+	<title>Web Design Final Project</title>
+	
+	<!--Favicon-->
+	<link rel="shortcut icon" type="image/jpg" href="https://upload.wikimedia.org/wikipedia/en/thumb/9/9c/Rufus_Kim_Possible.png/250px-Rufus_Kim_Possible.png"/>
+	
+	<!--Calls CSS-->
+	<link rel="stylesheet" type = "text/css" charset="utf-8" href=molerat_css.css>
+	
+	<!--Calls icons -->
+	<script src="https://kit.fontawesome.com/dece17cfae.js" crossorigin="anonymous"></script>
+	
+	<style>
+       
+    </style>
+	
+</head>
+
+<body>
+	<div><h1>Home Page</h1></div>
+	
+	<!--toolbar div-->
+	<div class = "tool2">
+		<ul>
+			<!--Home-->
+			<a class="active" href="file:///C:/Users/Rachael/Desktop/WebProgramming/Molerat%20Page%20Project/molerat_home.html"><i class="fa fa-home"></i></a>
+			<!--Foraging-->
+			<a href="C:\Users\Rachael\Desktop\WebProgramming\Molerat Page Project\molerat_forage.html"><i class="fas fa-carrot"></i></a>
+			<!--Work Cited-->
+			<a href="C:\Users\Rachael\Desktop\WebProgramming\Molerat Page Project\molerat_workcited.html"><i class="fas fa-globe"></i></a>
+			<!--
+			<a href="#"><i class="fa fa-globe"></i></a>
+			<a href="#"><i class="fa fa-trash"></i></a>-->
+		</ul>
+	</div>
+	<!--end of toolbar div-->
+	
+	<center><img src = "https://www.cam.ac.uk/sites/www.cam.ac.uk/files/news/research/news/nakedmoleratsmithsoniannationalzoo.jpg" alt = "big ol mole rat" height = "300" width = "600">
+	
+	<h2>What are naked mole rats?</h2>
+		<p>Naked mole rats (<i>Heterocephalus glaber</i>) are a species of rodent that are only found in underground burrows in Eastern Africa. This wesbite was made in order to provide various information about the naked mole rat ranging from their dietary habits, social structure, to predator defence and more. Each page goes into different categories in detail, so feel free to explore!</p>
+	
+	
+	</center>
+</body>
+
+</html>
+
+<!--Sections (based off of paper, rename them accordingly)
+~ introduction
+~foraging & dispersal
+~Predator defense
+~ intraspecies competition & communication
+~ mating system & sexual selection
+~ parental investment & social behaviour
+~ Work cited -->

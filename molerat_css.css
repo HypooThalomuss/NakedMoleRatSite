@@ -1,0 +1,316 @@
+/* CSS for Mole Rat Project */
+
+h1 {
+	text-align: center;
+	font-family: Helvetica;
+	
+}
+
+h2 {
+	font-family: Helvetica;
+}
+
+h3 {
+	font-style: bold;
+	text-align: center;
+	font-family: Rubik;
+	font-size: 32px;
+}
+
+h4{ 
+	font-style: bold;
+	font-family: Rubik;
+	text-align: left;
+}
+
+body {
+	background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsk0RDMATG9t-5F4uflrPvoYruv4AkyOtZPA&usqp=CAU");
+	background-color: #ffffff;
+}
+
+img {
+	display: flex;
+	margin-bottom: 10px;
+	margin-top: 20px;
+	justify-content: center;
+}
+
+p {
+	font-family: Rubik;
+	text-indent: 40px;
+	line-height: 1.5;
+}
+
+
+
+figcaption {
+	position: absolute;
+
+}
+
+.bullet {
+	line-height: 1.5;
+	margin: 20px 0;
+}
+
+
+.linkhome {
+	 width: 90px;
+	 height: 30px;
+}
+
+.linkhome:hover {
+	background-image: url("C:\Users\Rachael\Desktop\WebProgramming\Molerat Page Project\Images\toolbar\home_hover.png");
+}
+
+.centerlock {
+	position: absolute;
+}
+
+.centerreport {
+	text-align: center;
+	line-height: 1.5;
+	position: relative;
+}
+
+.caption {
+	flex-grow: 1;
+	flex-basis: 45%;
+}
+
+.regtext {
+	border-style: solid;
+	border-color: #E15D9F;
+	background-color: #FFEDF6;
+	margin-left: 125px;
+	margin-right: 125px;
+	padding-left: 20px;
+	padding-right: 20px;
+	}
+
+#foragecontainer {
+	display: flex;
+   flex-direction: row
+}
+	
+.foragetext {
+	/*position: relative;
+	top: 50px;
+	left: -800px;*/
+	flex: 0 1 100%;
+	margin-top: 25px;
+	margin-left: 0px;
+	margin-right: -50px;
+}
+
+.forageflex {
+	display: flex;
+	flex-direction: row;
+	position: relative;
+	top: 50px;
+}
+	
+.potato {
+	position: relative;
+	left: -500px;
+	top: -380px;
+}
+
+.doublepotato {
+	top: 200px;
+}
+
+/*Toolbar*/
+/*link inside toolbar*/
+/*.toolbar {
+	float: center;
+	font-family: Helvetica;
+	border-top: 1px solid #000000;
+	border-bottom: 1px solid #000000;
+	background-color: #ffbaba;
+	text-align: center;
+	display: flex;
+}
+
+.toolbar ul {
+	margin: auto;
+	padding: 10px;
+	list-style-type: none;
+}
+.toolbar li{
+	display:inline;
+}
+/*tab borders
+.toolbar li a {
+	float: center;
+	border-left: 2px solid #9999ff;
+	border-right: 2px solid #9999ff;
+	padding: 0px 10px;
+	color: #000000;
+	text-decoration:none;
+}*/
+
+/*color of tabs when hovered over with mouse
+toolbar li a:hover {
+	background-color: #00DBF0;
+}
+/*end of toolbar CSS
+
+.home:hover {
+	background: url("C:\Users\Rachael\Desktop\WebProgramming\Molerat Page Project\Images\toolbar\home_hover.png") no-repeat;
+}
+
+/*Toolbar attempt 2  (based on code retrieved from w3schools
+https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_navbar_icon
+*/
+
+.tool2 {
+  width: 100%; /* Full-width */
+  background-color: #555; /* Dark-grey background */
+  overflow: auto; /* Overflow due to float */
+  font-family: Rubik;
+  text-align: center;
+}
+
+.tool2 a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.tool2 a:hover {
+  background-color: #000;
+}
+
+.active {
+  background-color: #E15D9F;
+}
+
+
+.nofloat {
+	top: 50%;
+	left: 50%;
+	margin: 0px 0px 0px -50px;
+}
+
+.toolname {
+	color: white;
+	font-size: 32px;
+	font-family: Rubik;
+}
+
+.
+
+/* Dropdown Button */
+.dropbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+/*end of dropdown*/
+.caption {
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+	position: relative;
+	overflow: hidden;
+}
+
+.imgcaption {
+	font-size: 14px;
+	font-family: Rubik;
+}
+
+.captionright{
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+	overflow: hidden;
+	text-align: justify;
+}
+
+.homeimage {
+	display: block;
+	margin: 0 auto;
+}
+
+.foragerats {
+	float: right;
+	margin-left: 40px;
+
+}
+
+.foragemap {
+	float: right;
+	margin-right: 40px;
+
+}
+
+.textbox {
+  text-align: center;
+	overflow: hidden;
+}
+
+.imgright{
+   flex: 0 1 60%;
+   margin-left: 10px;
+   margin-right: 10px;
+}
+
+.imgfarright {
+	flex: 0 1 20%;
+	margin-left: 10px;
+   margin-right: 10px;
+}
+.blackborder{
+	box-shadow: 5px 5px 10px grey;
+}
+
+.movedownabit {
+	position: relative;
+	margin-top: 25px;
+}
+
+.greybackground{
+	background: rgba(200, 200, 200, 0.3) /* Green background with 30% opacity */
+}
+
+
