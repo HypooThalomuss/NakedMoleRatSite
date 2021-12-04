@@ -279,8 +279,7 @@ https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_navbar_icon
 }
 
 .foragemap {
-	float: right;
-	margin-right: 40px;
+	flex: 0 1 20%;
 
 }
 
