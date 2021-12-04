@@ -280,6 +280,7 @@ https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_navbar_icon
 
 .foragemap {
 	flex: 0 1 60%;
+	float: center;
 
 }
 
